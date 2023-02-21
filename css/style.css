@@ -1,11 +1,12 @@
 *{
     font-family: 'PT Sans', sans-serif;
 }
-/* nav{
-    background-color: #ADB4C6;
-} */
+nav{
+    transition: all 0.5s;
+}
 .nav-scroll{
     box-shadow: 0 3px 6px #00000029;
+    background-color: rgba(0, 0, 0, 0.2) !important;
 }
 .vh-75{
     height: 75vh;
@@ -109,14 +110,6 @@
 #services li{
     line-height: 1.5rem;
 }
-.layer{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-}
-.surgeries{
-    padding: 20px 0;
-}
 .section-title{
     font-weight: 600;
     display: flex;
@@ -172,9 +165,12 @@
 #why_attract{
     margin: 1rem 0;
 }
+#customers{
+    background-color: #f3f3f3;
+    padding: 2rem 0;
+}
 #contact{
     color: #555;
-    background-color: #f3f3f3;
 }
 #contact h4{
     color: #2463c3;
@@ -182,7 +178,7 @@
 #contact i{
     color: crimson;
     font-size: 1.25rem;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
     
 }
 #contact .social a{
@@ -204,8 +200,30 @@
     transition: all 0.5s;
 }
 .nav-link:hover{
-    color: #2F9ABD;
+    color: crimson !important;
 }
 .navbar-nav>.active>span{
     color: #2463c3;
+}
+.car_ind{
+    position: relative !important;
+}
+.car_ind button{
+    background-color: crimson !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: crimson;
+    border-radius: 50%;
+}
+footer span{
+    color: crimson;
+    font-weight: 600;
+    margin-left: 5px;
+}
+#about .row h2{
+    text-indent: 15px;
+    margin-bottom: 1rem;
+    color: crimson;
+    font-style: italic;
+    font-weight: 600;
 }
