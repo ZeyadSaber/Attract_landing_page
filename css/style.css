@@ -3,10 +3,13 @@
 }
 nav{
     transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.2) !important;
 }
 .nav-scroll{
     box-shadow: 0 3px 6px #00000029;
-    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+#services ul{
+    padding: 0 33.333%;
 }
 .vh-75{
     height: 75vh;
@@ -14,45 +17,14 @@ nav{
 .vh-50{
     height: 50vh;
 }
-.nav-link{
-    color: black !important;
-}
-#home .container .bg{
-    background-image: url(./../images/slide03.png);
-    background-size: cover;
-    margin-top: 82px;
-    width: 100%;
-    height: calc(100vh - 82px);
-}
+
 .title{
     color: #2463c3;
     font-weight: bold;
 }
-#home button{
-    background-color: #2463c3;
-    color: white;
+#home{
+    background-color: rgba(0, 0, 0, 0.2);
 }
-#home button:hover{
-    background-color: #2F9ABD;
-}
-#home ul{
-    padding: 0;
-}
-#home li{
-    list-style: none;
-    display: inline-block;
-    padding-right: 15px;
-    font-size: 1.5rem;
-}
-#home li a{
-    text-decoration: none;
-    color: white;
-    transition: all 0.5s;
-}
-#home li a:hover{
-    color: #2F9ABD;
-}
-
 #services{
     background-color: #f3f3f3;
 }
