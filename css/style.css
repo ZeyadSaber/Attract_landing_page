@@ -1,6 +1,6 @@
 *{
     font-family: 'PT Sans', sans-serif;
-    
+    cursor: url(./../images/attract_design.png), auto;
 }
 nav{
     transition: all 0.5s;
@@ -19,10 +19,6 @@ nav{
     height: 50vh;
 }
 
-.title{
-    color: #2463c3;
-    font-weight: bold;
-}
 #home{
     background-color: rgba(0, 0, 0, 1);
 }
@@ -174,9 +170,6 @@ nav{
 }
 .nav-link:hover{
     color: white !important;
-}
-.navbar-nav>.active>span{
-    color: #2463c3;
 }
 .car_ind{
     position: relative !important;
