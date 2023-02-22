@@ -1,5 +1,6 @@
 *{
     font-family: 'PT Sans', sans-serif;
+    
 }
 nav{
     transition: all 0.5s;
@@ -23,7 +24,7 @@ nav{
     font-weight: bold;
 }
 #home{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 1);
 }
 #services{
     background-color: #f3f3f3;
@@ -31,7 +32,7 @@ nav{
 #services h2{
     font-size: 2.8rem;
     font-weight: 700;
-    color: crimson;
+    color: white;
     position: relative;
     margin: 2rem 0;
 }
@@ -39,7 +40,7 @@ nav{
     content: "Design without";
     font-size: 1rem;
     font-weight: 600;
-    color: black;
+    color: brown;
     position: absolute;
     text-transform: none;
     top: -10px;
@@ -49,7 +50,7 @@ nav{
     content: "is just art";
     font-size: 1rem;
     font-weight: 600;
-    color: black;
+    color: brown;
     position: absolute;
     text-transform: none;
     bottom: -10px;
@@ -59,7 +60,7 @@ nav{
     content: "is intelligence made visible";
     font-size: 1rem;
     font-weight: 600;
-    color: black;
+    color: brown;
     position: absolute;
     text-transform: none;
     bottom: -10px;
@@ -71,7 +72,7 @@ nav{
     content: "Your story deserves to be told";
     font-size: 1rem;
     font-weight: 600;
-    color: black;
+    color: brown;
     position: absolute;
     text-transform: none;
     bottom: -10px;
@@ -92,7 +93,7 @@ nav{
     margin-bottom: 3rem;
 }
 .section-title h2{
-    color: #dee3e4;
+    color: transparent;
     opacity: 0.4;
     font-size: 4.25rem;
     text-transform: uppercase;
@@ -103,12 +104,12 @@ nav{
     width: 100%;
     position: absolute;
     margin: auto;
-    color: #2463c3;
+    color: white;
 }
 .section-title span{
     border-bottom: 1px solid #dee2e6;
     border-width: 3px;
-    border-color: crimson;
+    border-color: white;
     width: 80px;
     position: absolute;
     margin: auto;
@@ -131,11 +132,11 @@ nav{
 }
 .counter-item i{
     position: relative;
-    color: crimson;
+    color: brown;
     margin-bottom: 1.8rem;
 }
 #why_attract{
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 #customers{
     background-color: #f3f3f3;
@@ -145,17 +146,17 @@ nav{
     color: #555;
 }
 #contact h4{
-    color: #2463c3;
+    color: white;
 }
 #contact i{
-    color: crimson;
+    color: white;
     font-size: 1.25rem;
     /* margin-right: 1rem; */
     
 }
 #contact .social a{
     text-decoration: none;
-    color: crimson;
+    color: white;
     transition: all 0.5s;
 }
 #contact .social a:hover{
@@ -172,7 +173,7 @@ nav{
     transition: all 0.5s;
 }
 .nav-link:hover{
-    color: crimson !important;
+    color: white !important;
 }
 .navbar-nav>.active>span{
     color: #2463c3;
@@ -181,21 +182,21 @@ nav{
     position: relative !important;
 }
 .car_ind button{
-    background-color: crimson !important;
+    background-color: white !important;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: crimson;
+    background-color: white;
     border-radius: 50%;
 }
 footer span{
-    color: crimson;
+    color: white;
     font-weight: 600;
     margin-left: 5px;
 }
 #about .row h2{
     text-indent: 15px;
     margin-bottom: 1rem;
-    color: crimson;
+    color: white;
     font-style: italic;
     font-weight: 600;
 }
