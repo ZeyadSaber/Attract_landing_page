@@ -9,16 +9,12 @@ nav{
 .nav-scroll{
     box-shadow: 0 3px 6px #00000029;
 }
-#services ul{
-    padding: 0 33.333%;
-}
 .vh-75{
     height: 75vh;
 }
 .vh-50{
     height: 50vh;
 }
-
 #home{
     background-color: rgba(0, 0, 0, 1);
 }
@@ -32,6 +28,20 @@ nav{
     position: relative;
     margin: 2rem 0;
 }
+@media screen and (max-width: 376px) {
+    nav .navbar-brand img{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 321px) {
+    nav .navbar-brand img{
+        width: 50%;
+        height: 75%;
+    }
+}
+/* #services ul{
+    padding: 0 33.333%;
+} */
 #strategy::before{
     content: "Design without";
     font-size: 1rem;
@@ -94,6 +104,7 @@ nav{
     font-size: 4.25rem;
     text-transform: uppercase;
     width: 100%;
+    display: none;
 }
 .section-title p{
     font-size: 2rem;
