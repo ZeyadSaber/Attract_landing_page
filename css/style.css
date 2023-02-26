@@ -30,11 +30,6 @@ nav{
 }
 @media screen and (max-width: 425px) {
     nav .navbar-brand img{
-        width: 75%;
-    }
-}
-@media screen and (max-width: 321px) {
-    nav .navbar-brand img{
         width: 50%;
         height: 75%;
     }
