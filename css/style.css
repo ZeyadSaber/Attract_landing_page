@@ -28,7 +28,7 @@ nav{
     position: relative;
     margin: 2rem 0;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 425px) {
     nav .navbar-brand img{
         width: 75%;
     }
@@ -39,9 +39,6 @@ nav{
         height: 75%;
     }
 }
-/* #services ul{
-    padding: 0 33.333%;
-} */
 #strategy::before{
     content: "Design without";
     font-size: 1rem;
