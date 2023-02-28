@@ -38,7 +38,6 @@ nav{
     content: "Design without";
     font-size: 1rem;
     font-weight: 600;
-    color: brown;
     position: absolute;
     text-transform: none;
     top: -10px;
@@ -48,7 +47,6 @@ nav{
     content: "is just art";
     font-size: 1rem;
     font-weight: 600;
-    color: brown;
     position: absolute;
     text-transform: none;
     bottom: -10px;
@@ -58,7 +56,6 @@ nav{
     content: "is intelligence made visible";
     font-size: 1rem;
     font-weight: 600;
-    color: brown;
     position: absolute;
     text-transform: none;
     bottom: -10px;
@@ -70,7 +67,6 @@ nav{
     content: "Your story deserves to be told";
     font-size: 1rem;
     font-weight: 600;
-    color: brown;
     position: absolute;
     text-transform: none;
     bottom: -10px;
@@ -114,13 +110,20 @@ nav{
     margin: auto;
     margin-top: 55px;
 }
-
+.card-img{
+    overflow: hidden;
+}
+.card img{
+    transition: all 0.4s;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
 .counter-icon{
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     line-height: 1.8;
-    box-shadow: 0 0 0 10px #cde1f8;
-    font-size: 2rem;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7);
     border-radius: 50%;
     margin: 0 auto;
     text-align: center;
@@ -131,8 +134,7 @@ nav{
 }
 .counter-item i{
     position: relative;
-    color: brown;
-    margin-bottom: 1.8rem;
+    /* margin-bottom: 1.8rem; */
 }
 #why_attract{
     padding: 1rem 0;
