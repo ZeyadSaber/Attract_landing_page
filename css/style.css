@@ -1,5 +1,5 @@
 *{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     cursor: url(./../images/attract_design.png), auto;
 }
 nav{
@@ -40,7 +40,7 @@ nav{
     font-weight: 600;
     position: absolute;
     text-transform: none;
-    top: -10px;
+    top: -13px;
     left: 50%;
 }
 #strategy::after{
@@ -76,6 +76,25 @@ nav{
 }
 #services li{
     line-height: 1.5rem;
+}
+.service{
+    transition: all 2s ease-in-out;
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    opacity: 0;
+}
+.go-inside{
+    transform: translateX(0) !important;
+    opacity: 1;
+}
+.service-left{
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);
+    transform: translateX(-50rem);
+}
+.service-right{
+    box-shadow: -5px 5px 15px rgba(255, 255, 255, 0.4);
+    transform: translateX(50rem);
 }
 .section-title{
     font-weight: 600;

@@ -1,7 +1,7 @@
 const _nav = document.querySelector('.navbar');
 let nums = document.querySelectorAll(".counter-num");
-let section = document.querySelector(".surgeries");
-let started = false;
+let section = document.querySelector("#services .section-title");
+let services = Array.from(document.querySelectorAll('.service'));
 
 window.addEventListener('scroll', () => {
     if(window.scrollY > _nav.scrollHeight){
@@ -9,12 +9,14 @@ window.addEventListener('scroll', () => {
     }else if(window.scrollY <= window.innerHeight){
         _nav.classList.remove('nav-scroll');
     }
-    // if (window.scrollY > section.scrollHeight) {
-    //     if (!started) {
-    //       nums.forEach((num) => startCount(num));
-    //     }
-    //     started = true;
-    //   }
+    for (let i = 0; i < services.length; i++) {
+      const element = services[i];
+      if (window.scrollY > element.clientHeight) {
+            setTimeout(() => {
+              element.classList.add('go-inside')
+            }, i*2000);
+        }
+      }
 });
 
 function startCount(el) {
